@@ -63,7 +63,7 @@ export default function Home() {
       id: 1,
       platform: "WhatsApp",
       handle: "Fale conosco",
-      link: "https://wa.me/5511999999999",
+      link: "https://wa.me/5532984209482",
       icon: "https://d2xsxph8kpxj0f.cloudfront.net/310519663540178057/54aaHojStA3aejX8wPynvc/whatsapp-icon-3yRkXm2Qkn27Pgc9TgPDuc.webp",
     },
     {
@@ -83,7 +83,7 @@ export default function Home() {
   ];
 
   const handleQuoteRequest = () => {
-    const phoneNumber = "5511999999999"; // Substitua pelo seu número real
+    const phoneNumber = "5532984209482"; // Número real do João
     const message = encodeURIComponent("Olá! Vi o site da Novara e gostaria de solicitar um orçamento para o meu projeto.");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
     toast.success("Abrindo WhatsApp para orçamento...", {
