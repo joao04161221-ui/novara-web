@@ -176,7 +176,7 @@ export default function Home() {
         {/* Projects Section */}
         <section id="projects" className="py-12 md:py-20 px-4 md:px-0 bg-card/30">
           <div className="container max-w-6xl mx-auto">
-            <div className="mb-8 md:mb-12 animate-fade-in-up">
+            <div className="mb-8 md:mb-12 animate-fade-in-up text-center">
               <h2 className="font-display text-2xl md:text-4xl text-primary">
                 PROJETOS REALIZADOS
               </h2>
