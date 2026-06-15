@@ -83,8 +83,11 @@ export default function Home() {
   ];
 
   const handleQuoteRequest = () => {
-    toast.success("Orçamento solicitado! Entraremos em contato em breve.", {
-      duration: 4000,
+    const phoneNumber = "5511999999999"; // Substitua pelo seu número real
+    const message = encodeURIComponent("Olá! Vi o site da Novara e gostaria de solicitar um orçamento para o meu projeto.");
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+    toast.success("Abrindo WhatsApp para orçamento...", {
+      duration: 2000,
     });
   };
 
