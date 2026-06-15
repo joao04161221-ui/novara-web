@@ -168,6 +168,15 @@ export default function Home() {
               Criamos sites modernos, rápidos e estratégicos para transformar
               visitantes em clientes.
             </p>
+            <div className="animate-fade-in-up">
+              <Button 
+                onClick={handleQuoteRequest}
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-white font-heading px-8 py-6 text-lg rounded-full transition-all duration-300 transform hover:scale-105 animate-pulse-glow"
+              >
+                FAÇA O SEU ORÇAMENTO
+              </Button>
+            </div>
 
 
           </div>
