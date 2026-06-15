@@ -6,6 +6,7 @@ export function DynamicBackground() {
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
+      if (window.innerWidth < 768) return; // Disable on mobile for performance
       if (!glowRef.current || !containerRef.current) return;
 
       const rect = containerRef.current.getBoundingClientRect();

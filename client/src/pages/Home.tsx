@@ -125,7 +125,7 @@ export default function Home() {
             >
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663540178057/54aaHojStA3aejX8wPynvc/novara-logo-clean-Nsvxya3Kiqm6zp4phaVkN6.webp"
-                alt="NOVARA"
+                alt="Logo NOVARA - Especialista em Presença Digital"
                 className="w-8 h-8 md:w-10 md:h-10 object-contain"
               />
               <span className="font-display text-lg md:text-xl text-primary hidden sm:inline">
@@ -341,7 +341,7 @@ export default function Home() {
                     <div className="w-12 h-12 mx-auto mb-4 text-primary">
                       <img
                         src={contact.icon}
-                        alt={contact.platform}
+                        alt={`Ícone de contato via ${contact.platform}`}
                         className="w-full h-full object-contain"
                       />
                     </div>
